@@ -13,6 +13,7 @@ public class IMultiNumNaturais{
 
         return b + multiplicar(a-1, b);
     }
+    //a representa quantas vezes falta somar o b
 
     public static void ImprimirSoma(int a, int b){
         if(a == 1){
